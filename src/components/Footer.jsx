@@ -3,7 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () =>{
     return (
-        <footer className="relative text-white quicksand">
+        <footer className="relative text-white quicksand ">
             <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/da5crwlqh/image/upload/v1718627166/WhatsApp_Image_2024-06-14_at_20.01.25_d11dac9f_oev1cd.jpg')] bg-cover bg-no-repeat bg-center before:absolute before:inset-0 before:bg-[#636363aa] before:content-['']"></div>
             <div className="relative z-10 flex flex-col justify-around p-12 lg:py-12  lg:flex-row">
                     <div className="my-8 lg:mx-3 ">
