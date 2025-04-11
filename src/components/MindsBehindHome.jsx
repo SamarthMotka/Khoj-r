@@ -11,7 +11,7 @@ const MindsBehindHome = () => {
                     <img src='https://res.cloudinary.com/da5crwlqh/image/upload/v1718645082/WhatsApp_Image_2024-06-17_at_18.44.55_53338d31_z2snvc.jpg' ></img>
                 </div>
                 <div className='lg:w-[70%] lg:ml-12'>
-                    <h2 className='text-[#6d567b] mx-3 mt-6 lg:mt-0 lg:mb-3 text-4xl font-bold'>Minds behind the venture</h2>
+                    <h2 className='text-[#6d567b]  mt-6 lg:mt-0 lg:mb-3 text-4xl font-bold text-center lg:text-start'>Minds behind the venture</h2>
                     <p className='text-[#6c6d76] text-sm py-4 lg:pt-0 text-justify'>From a love of hand-painting to a heartfelt venture, Khoj was born. We're Yashvi and Rajeshri Shah, a mother-daughter duo with a shared passion for art and design. Rajeshri's meticulous eye for detail complements my artistic vision, and together we create beautiful, functional designs. While my MBA background allows me to handle the business side, there's nothing quite like the feeling of putting brush to canvas and letting creativity flow. We invite you to join us on this artistic journey!</p>
                     <div className='text-sm'>
                         <div className='flex flex-row my-3'>
