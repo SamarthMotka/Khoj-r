@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Contact from './components/Contact'
 import AboutUs from './components/AboutUs'
+import Process from './components/Process'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Body></Body>}>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/aboutus' element={<AboutUs></AboutUs>}></Route>
+          <Route path='/process' element={<Process></Process>}></Route>
           <Route path='/contact' element={<Contact></Contact>}></Route>
 
         </Route>

@@ -5,8 +5,8 @@ const AboutUsCard = () => {
     return (
         <div className='text-[#757989] bg-white p-10 lg:px-30 py-10 quicksand'>
             <div className='flex flex-col-reverse lg:flex-row mb-6  mx-auto '>
-                <div className='p-10 lg:p-0 lg:w-[65%]'>
-                    <h1 className="text-5xl text-[#6d567b] text-center lg:text-start my-3">
+                <div className='md:p-10 lg:p-0 lg:w-[65%]'>
+                    <h1 className="text-3xl md:text-5xl text-[#6d567b] text-center lg:text-start my-3">
                         Where it all began.
                     </h1>
                     <p className='text-[#373a40] pt-4 '>ESTD. 2021</p>
@@ -19,11 +19,11 @@ const AboutUsCard = () => {
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row'>
-                <div className='w-[400px] lg:w-full  mx-auto'>
+                <div className='max-w-[400px] lg:w-full  mx-auto'>
                     <img src='https://res.cloudinary.com/da5crwlqh/image/upload/v1718292427/Khoj/Accessories/Bags/f4dzmjcbfrve0t1immaq.jpg'></img>
                 </div>
-                <div className='px-10 pt-4 text-center ld:px-0 '>
-                    <h1 className=' text-5xl text-[#6d567b] my-3'>Words from the founder</h1>
+                <div className='md:px-10 pt-4 text-center ld:px-0 '>
+                    <h1 className=' text-3xl md:text-5xl text-[#6d567b] my-3'>Words from the founder</h1>
                     <p className='text-justify my-2'>At the heart of Khoj lies a simple yet profound journey—one fueled by the desire to explore the path of artistry and touch hearts through creativity. What began as a personal quest to chart my own artistic course soon evolved into something greater—an endeavor to transform the ordinary into the extraordinary.</p>
                     <p className='text-justify my-2'>Every stroke of paint on fabric tells a story of innovation and reinvention. It's about seeing beyond the stain on the cloth and envisioning a new canvas waiting to be adorned with vibrant hues and intricate designs. This vision, to breathe new life into the mundane, became the essence of Khoj.
                     </p>
