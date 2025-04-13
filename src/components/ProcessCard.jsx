@@ -3,7 +3,7 @@ import React from 'react'
 const ProcessCard = () => {
     return (
         <div className='bg-white  quicksand '>
-            <h1 className='text-3xl md:text-5xl my-[40px] font-thin text-center text-[#6d567b]'>The Process</h1>
+            <h1 className='text-3xl md:text-5xl mt-[40px] font-thin text-center text-[#6d567b]'>The Process</h1>
             <div className='flex flex-col lg:flex-row lg:w-[80%] mx-auto'>
                 <div className='max-w-[500px] lg:p-[2rem] mx-auto my-auto'>
                     <img src='https://res.cloudinary.com/da5crwlqh/image/upload/v1718292850/Khoj/bpblz5mspwxgzdrpns94.jpg'></img>

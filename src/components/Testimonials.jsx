@@ -50,7 +50,7 @@ const Testimonials = () => {
     return (
         <div className='bg-white p-12 lg:px-10 quicksand'>
             <div className='text-center mb-10'>
-                <h1 className='text-5xl pb-4 text-[#6d567b]'>Testimonials</h1>
+                <h1 className=' text-3xl md:text-5xl pb-4 text-[#6d567b]'>Testimonials</h1>
                 <p className='text-[#686D76]'>Hear what our delighted customers have to say about us</p>
             </div>
 

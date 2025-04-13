@@ -47,7 +47,7 @@ const Navbar = () => {
                             onMouseEnter={() => tab === "PRODUCTS" && setShowProductMenu(true)}
 
                         >
-                            <Link href={tab === "HOME" || tab === "PRODUCTS" ? "/" : `/${tab.toLowerCase().replace(/\s+/g, "_")}`}>
+                            <Link to={tab === "HOME" || tab === "PRODUCTS" ? "/" : `/${tab.toLowerCase().replace(/\s+/g, "_")}`}>
                                 {tab}
                             </Link>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
                                 <ul className="absolute top-full left-0 bg-white shadow-lg rounded-md mt-2 py-2 w-40" onMouseLeave={() => tab === "PRODUCTS" && setShowProductMenu(false)}>
                                     {['Wearables', 'Homeware', 'Accessories'].map((category, index) => (
                                         <li key={index} className="px-4 py-2 hover:bg-[#6d567b] hover:text-white cursor-pointer">
-                                            <Link href={`/${category.toLowerCase()}`}>
+                                            <Link to={`/${category.toLowerCase()}`}>
                                                 {category}
                                             </Link>
                                         </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
                         <CloseIcon onClick={handleClick}></CloseIcon>
                     </div>
                     <div className='flex justify-center align-middle' >
-                        <MobileNavbar className='mx-auto'></MobileNavbar>
+                        <MobileNavbar onCloseMenu={handleClick}  className='mx-auto'></MobileNavbar>
                     </div>
                 </div>
             )}

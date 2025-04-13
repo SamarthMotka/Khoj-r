@@ -2,10 +2,10 @@ import React from 'react'
 
 const CustomizationForm = () => {
   return (
-            <div className='bg-white  py-10 text-xs'>
+            <div className='bg-white  p-4 md:p-10 text-xs quicksand'>
                 <div className='lg:w-2/3 bg-[#c3b6cb] p-10 mx-auto text-black'>
                     <form className=''>
-                        <div className="flex flex-col md:flex-row gap-4">
+                        <div className="flex flex-col md:flex-row md:gap-4">
                             <input
                                 type="text"
                                 placeholder="Your Name"
@@ -17,7 +17,7 @@ const CustomizationForm = () => {
                                 className="placeholder-[#202020] w-full md:w-1/2 p-3 bg-[#e8d9e8] border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#9a7fa3]"
                             />
                         </div>
-                        <div className='flex flex-col md:flex-row gap-4'>
+                  <div className='flex flex-col md:flex-row  md:gap-4'>
                             <input
                                 type="email"
                                 placeholder="Your Email"
@@ -29,7 +29,7 @@ const CustomizationForm = () => {
                             />
                         </div>
 
-                        <div className='flex flex-col md:flex-row gap-4'>
+                  <div className='flex flex-col md:flex-row  md:gap-4'>
                             <input
                                 type="number"
                                 placeholder="Quantity Required"
