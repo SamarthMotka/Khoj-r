@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
-const HomeCarousel = ({ image, show }) => {
+const HomeCarousel = ({ image, show, p='30' }) => {
 
   const [currIndex, setCurrIndex] = useState(0);
 
@@ -28,7 +28,7 @@ const HomeCarousel = ({ image, show }) => {
 
   return (
     <div className='flex  flex-col  justify-center bg-white '>
-      <div className='relative max-h-[80vh] px-10 lg:px-30 mb-[20px] overflow-hidden  '>
+      <div className={`relative max-h-[80vh] px-10 lg:px-${p} mb-[20px] overflow-hidden`}  >
         <img className='bg-cover bg-center bg-no-repeat' src={image[currIndex]}></img>
       </div>
 

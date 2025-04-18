@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className={`w-full z-50  quicksand  transition-all duration-500 ${isSticky ? "fixed top-0 bg-white" : "absolute bg-transparent w-[100%]"} `}>
             <div className={`flex px-8 justify-between lg:justify-around $ text-black `}>
                 <img className='w-[70px] md:w-[90px]' src='https://res.cloudinary.com/da5crwlqh/image/upload/v1718291882/Khoj/mokzpfmuxcif8pxqsqz1.svg'></img>
-                <ul className='hidden lg:flex text-xs justify-center align-middle space-x-[40px]'>
+                <ul className='hidden lg:flex text-sm font-semibold justify-center align-middle space-x-[40px]'>
                     {['HOME', 'ABOUT US', 'PROCESS', 'PRODUCTS', 'CONTACT US'].map((tab) => (
                         <li
                             key={tab}

@@ -5,6 +5,7 @@ import PortfolioHome from './PortfolioHome'
 import Testimonials from './Testimonials'
 import DownloadCatalog from './DownloadCatalog'
 import HomeCarousel from './HomeCarousel'
+import GalleryHome from './GalleryHome'
 
 
 
@@ -23,6 +24,7 @@ const Home = () => {
         <HomeCarousel image={image} show={true}></HomeCarousel>
         <MindsBehindHome></MindsBehindHome>
         <PortfolioHome></PortfolioHome>
+        <GalleryHome></GalleryHome>
         <Testimonials></Testimonials>
         <DownloadCatalog></DownloadCatalog>
     </>

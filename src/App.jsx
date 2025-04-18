@@ -15,6 +15,7 @@ import Customize from './components/Customize'
 import Wearables from './components/Wearables'
 import Homeware from './components/Homeware'
 import Accesories from './components/Accesories'
+import ProductDisplayPage from './components/ProductDisplayPage'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
             <Route path='/wearables' element={<Wearables></Wearables>}></Route>
             <Route path='/homeware' element={<Homeware></Homeware>}></Route>
             <Route path='/accessories' element={<Accesories></Accesories>}></Route>
+            <Route path='/:name' element={<ProductDisplayPage></ProductDisplayPage>}></Route>
 
           </Route>
 

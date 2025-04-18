@@ -11,18 +11,18 @@ const ContactUsCards = () => {
                 <div className='text-center '>
                     <LocationOnIcon fontSize='large' className=' m-4'></LocationOnIcon>
                     <h3 className='font-bold text-[#6d567b]'>Address</h3>
-                    <Link className='hover:text-[#6d567b] cursor-pointer' href='https://maps.app.goo.gl/k681xW5EfyhkUBpEA'>12, Shaurya Avenue, Near city civic centre, Vasna - Ahmedabad 380007
+                    <Link className='hover:text-[#6d567b] cursor-pointer' to='https://maps.app.goo.gl/k681xW5EfyhkUBpEA'>12, Shaurya Avenue, Near city civic centre, Vasna - Ahmedabad 380007
                     </Link>
                 </div>
                 <div className='text-center'>
                     <CallIcon fontSize='large' className=' m-4' ></CallIcon>
                     <h3 className='font-bold text-[#6d567b]'>Call Us</h3>
-                    <Link className='hover:text-[#6d567b] cursor-pointer' href="tel:+918320968029">+91 8320968029</Link>
+                    <Link className='hover:text-[#6d567b] cursor-pointer' to="tel:+918320968029">+91 8320968029</Link>
                 </div>
                 <div className='text-center'>
                     <EmailIcon fontSize='large' className=' m-4'></EmailIcon>
                     <h3 className='font-bold text-[#6d567b]'>Email Us</h3>
-                    <Link className='hover:text-[#6d567b] cursor-pointer' href="mailto:khojbyys@gmail.com">khojbyys@gmail.com</Link>
+                    <Link className='hover:text-[#6d567b] cursor-pointer' to="mailto:khojbyys@gmail.com">khojbyys@gmail.com</Link>
                 </div>
 
             </div>
