@@ -122,7 +122,7 @@ const GalleryHome = () => {
                 }`}
               onClick={() => setSelectedCategory(category)}
             >{category}</button>
-          ))};
+          ))}
         </div>
         <div className='flex justify-center '>
           <div className="flex justify-center  flex-wrap  px-4 md:px-10  lg:px-30 ">
